@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "id": "150",
+    "title": "Episode 150: Duo’s Film Club - Coco",
+    "date": "Thu 22 Feb 2024"
+  },
+  "quiz": [
+    {
+      "question": "¿Qué celebración mexicana es central en la trama de 'Coco'?",
+      "answers": [
+        "Cinco de Mayo",
+        "El Día de los Muertos",
+        "Día de la Independencia",
+        "Navidad"
+      ],
+      "correctAnswer": "El Día de los Muertos"
+    },
+    {
+      "question": "¿En qué región de México nació y creció el experto invitado, Mauricio García?",
+      "answers": ["Jalisco", "Oaxaca", "Michoacán", "Yucatán"],
+      "correctAnswer": "Michoacán"
+    },
+    {
+      "question": "¿Qué crean tradicionalmente las familias para honrar a sus ancestros durante el Día de los Muertos?",
+      "answers": ["Un festín", "Un altar", "Un desfile", "Una obra de teatro"],
+      "correctAnswer": "Un altar"
+    },
+    {
+      "question": "¿Cómo se llama el personaje principal en 'Coco'?",
+      "answers": ["Carlos", "Miguel", "Juan", "Roberto"],
+      "correctAnswer": "Miguel"
+    },
+    {
+      "question": "¿Cuál es la profesión de la familia de Miguel en la película?",
+      "answers": ["Panaderos", "Agricultores", "Músicos", "Zapateros"],
+      "correctAnswer": "Zapateros"
+    },
+    {
+      "question": "¿Qué Oscar ganó 'Coco' en 2018?",
+      "answers": [
+        "Mejor Película",
+        "Mejor Película Animada",
+        "Mejor Guión Original",
+        "Mejor Canción Original"
+      ],
+      "correctAnswer": "Mejor Canción Original"
+    },
+    {
+      "question": "¿Qué son los 'alebrijes' en la cultura mexicana?",
+      "answers": [
+        "Comidas tradicionales",
+        "Instrumentos musicales",
+        "Esculturas de criaturas fantásticas",
+        "Estilos de baile"
+      ],
+      "correctAnswer": "Esculturas de criaturas fantásticas"
+    },
+    {
+      "question": "¿Qué raza de perro inspiró al leal amigo de Miguel, Dante?",
+      "answers": ["Chihuahua", "Xolo", "Pelón Mexicano", "Azteca"],
+      "correctAnswer": "Xolo"
+    },
+    {
+      "question": "¿Cuál era el título original planeado para la película 'Coco'?",
+      "answers": [
+        "El Músico",
+        "Día de los Muertos",
+        "La Familia",
+        "El Viaje de Miguel"
+      ],
+      "correctAnswer": "Día de los Muertos"
+    },
+    {
+      "question": "¿En qué año se estrenó originalmente la película 'Coco'?",
+      "answers": ["2015", "2016", "2017", "2018"],
+      "correctAnswer": "2017"
+    },
+    {
+      "question": "¿Qué Oscar ganó 'Coco' además de Mejor Canción Original?",
+      "answers": [
+        "Mejor Guión",
+        "Mejor Película Animada",
+        "Mejor Banda Sonora",
+        "Mejor Dirección"
+      ],
+      "correctAnswer": "Mejor Película Animada"
+    },
+    {
+      "question": "¿Cómo se llama el ídolo músico de Miguel en la película?",
+      "answers": [
+        "Pedro Infante",
+        "Jorge Negrete",
+        "Ernesto de la Cruz",
+        "Vicente Fernández"
+      ],
+      "correctAnswer": "Ernesto de la Cruz"
+    },
+    {
+      "question": "¿Qué busca Miguel en el mundo de los muertos?",
+      "answers": [
+        "A su abuela",
+        "A su ídolo musical",
+        "El perdón de su familia",
+        "Un instrumento mágico"
+      ],
+      "correctAnswer": "A su ídolo musical"
+    },
+    {
+      "question": "¿Qué tipo de flores se mencionan como decoración tradicional en el altar del Día de los Muertos?",
+      "answers": [
+        "Rosas rojas",
+        "Claveles blancos",
+        "Flores de color naranja",
+        "Girasoles"
+      ],
+      "correctAnswer": "Flores de color naranja"
+    },
+    {
+      "question": "Según la tradición, ¿qué ayuda a los ancestros a encontrar a sus familias?",
+      "answers": [
+        "El olor de la comida",
+        "Las velas encendidas",
+        "Las flores en el altar",
+        "Las fotos familiares"
+      ],
+      "correctAnswer": "Las flores en el altar"
+    },
+    {
+      "question": "¿Qué pueblo de Michoacán inspiró el diseño del pueblo en 'Coco'?",
+      "answers": ["Morelia", "Pátzcuaro", "Uruapan", "Zamora"],
+      "correctAnswer": "Pátzcuaro"
+    },
+    {
+      "question": "¿Qué caracteriza a las casas del pueblo en la película, según Mauricio?",
+      "answers": [
+        "Techos verdes",
+        "Paredes amarillas",
+        "Casas blancas de techos rojos",
+        "Fachadas de adobe"
+      ],
+      "correctAnswer": "Casas blancas de techos rojos"
+    },
+    {
+      "question": "¿Cómo se ilumina el pueblo de Pátzcuaro durante el Día de los Muertos?",
+      "answers": [
+        "Con fuegos artificiales",
+        "Con faroles de papel",
+        "Con la luz de las velas",
+        "Con linternas eléctricas"
+      ],
+      "correctAnswer": "Con la luz de las velas"
+    },
+    {
+      "question": "¿Qué estado mexicano es conocido como el 'alma de México', según el podcast?",
+      "answers": ["Jalisco", "Oaxaca", "Michoacán", "Guanajuato"],
+      "correctAnswer": "Michoacán"
+    },
+    {
+      "question": "¿Qué estilos musicales se mencionan como presentes en la película 'Coco'?",
+      "answers": [
+        "Salsa, merengue y bachata",
+        "Rock, pop y jazz",
+        "Rancheras, boleros y mariachi",
+        "Cumbia, vallenato y reggaeton"
+      ],
+      "correctAnswer": "Rancheras, boleros y mariachi"
+    },
+    {
+      "question": "¿Qué tipo de canciones son generalmente las rancheras, según Mauricio?",
+      "answers": [
+        "Canciones de amor",
+        "Canciones sobre aventuras, la vida en el campo y la muerte",
+        "Canciones de protesta",
+        "Canciones infantiles"
+      ],
+      "correctAnswer": "Canciones sobre aventuras, la vida en el campo y la muerte"
+    },
+    {
+      "question": "¿Qué palabra usa la abuela de Miguel para referirse al altar familiar?",
+      "answers": ["Altar", "Santuario", "Ofrenda", "Tumba"],
+      "correctAnswer": "Ofrenda"
+    },
+    {
+      "question": "Según la tradición mencionada en el podcast, ¿qué sucede si no se coloca la foto de un ancestro en el altar?",
+      "answers": [
+        "El ancestro se enoja",
+        "La familia tiene mala suerte",
+        "El ancestro no puede cruzar al mundo de los vivos",
+        "La cosecha del año siguiente será mala"
+      ],
+      "correctAnswer": "El ancestro no puede cruzar al mundo de los vivos"
+    },
+    {
+      "question": "¿Quién es Adrian Molina?",
+      "answers": [
+        "El actor que da voz a Miguel",
+        "Uno de los directores de 'Coco'",
+        "El compositor de la música",
+        "El creador de los alebrijes"
+      ],
+      "correctAnswer": "Uno de los directores de 'Coco'"
+    },
+    {
+      "question": "¿Qué característica tiene Adrian Molina que le da una conexión especial con la cultura mexicana?",
+      "answers": [
+        "Vivió en México por 10 años",
+        "Es mitad mexicano",
+        "Estudió antropología mexicana",
+        "Está casado con una mexicana"
+      ],
+      "correctAnswer": "Es mitad mexicano"
+    },
+    {
+      "question": "¿En qué época comenzó el 'cine de oro de México', mencionado en el podcast?",
+      "answers": [
+        "En los años 20",
+        "En los años 30",
+        "En los años 40",
+        "En los años 50"
+      ],
+      "correctAnswer": "En los años 30"
+    },
+    {
+      "question": "¿Quién resulta ser realmente el tatarabuelo de Miguel al final de la película?",
+      "answers": [
+        "Ernesto de la Cruz",
+        "Héctor",
+        "Dante",
+        "Un músico desconocido"
+      ],
+      "correctAnswer": "Héctor"
+    },
+    {
+      "question": "¿Qué creían los aztecas sobre los perros Xolo, según Mauricio?",
+      "answers": [
+        "Que traían buena suerte",
+        "Que eran mensajeros de los dioses",
+        "Que acompañaban a las personas en su viaje al otro mundo",
+        "Que podían predecir el futuro"
+      ],
+      "correctAnswer": "Que acompañaban a las personas en su viaje al otro mundo"
+    },
+    {
+      "question": "¿Cuál es el nombre de la bisabuela de Miguel, que inspiró el título de la película?",
+      "answers": ["María", "Coco", "Imelda", "Elena"],
+      "correctAnswer": "Coco"
+    }
+  ]
+}
