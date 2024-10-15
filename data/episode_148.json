@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "id": "148",
+    "title": "Episode 148: Duo’s Film Club - Como agua para chocolate",
+    "date": "Thu 08 Feb 2024"
+  },
+  "quiz": [
+    {
+      "question": "¿Quién es el autor del libro 'Como agua para chocolate'?",
+      "answers": [
+        "Gabriel García Márquez",
+        "Isabel Allende",
+        "Laura Esquivel",
+        "Alfonso Arau"
+      ],
+      "correctAnswer": "Laura Esquivel"
+    },
+    {
+      "question": "¿En qué período histórico se desarrolla la historia de 'Como agua para chocolate'?",
+      "answers": [
+        "La Independencia de México",
+        "La Revolución Mexicana",
+        "El Porfiriato",
+        "La Guerra de Reforma"
+      ],
+      "correctAnswer": "La Revolución Mexicana"
+    },
+    {
+      "question": "¿Qué estilo literario representa 'Como agua para chocolate'?",
+      "answers": ["Realismo", "Surrealismo", "Realismo mágico", "Naturalismo"],
+      "correctAnswer": "Realismo mágico"
+    },
+    {
+      "question": "¿Cuál es el conflicto principal en la historia de Tita?",
+      "answers": [
+        "No puede cocinar",
+        "No puede casarse por tradición familiar",
+        "No puede tener hijos",
+        "No puede salir del rancho"
+      ],
+      "correctAnswer": "No puede casarse por tradición familiar"
+    },
+    {
+      "question": "¿Qué plato prepara Tita que causa una reacción intensa en su hermana Gertrudis?",
+      "answers": [
+        "Mole",
+        "Pastel Chabela",
+        "Codornices en pétalos de rosa",
+        "Tortas de Navidad"
+      ],
+      "correctAnswer": "Codornices en pétalos de rosa"
+    },
+    {
+      "question": "¿Qué significa la expresión 'Como agua para chocolate'?",
+      "answers": [
+        "Estar muy feliz",
+        "Estar muy enojado",
+        "Estar a punto de hervir de emoción",
+        "Estar muy triste"
+      ],
+      "correctAnswer": "Estar a punto de hervir de emoción"
+    },
+    {
+      "question": "¿Cuál es uno de los ingredientes principales del mole mencionados en el podcast?",
+      "answers": ["Ajo", "Chocolate", "Cebolla", "Cilantro"],
+      "correctAnswer": "Chocolate"
+    },
+    {
+      "question": "¿Qué ocurre cuando los invitados comen el pastel de boda preparado por Tita?",
+      "answers": [
+        "Se enamoran",
+        "Se enferman",
+        "Se ponen felices",
+        "Se entristecen y lloran"
+      ],
+      "correctAnswer": "Se entristecen y lloran"
+    },
+    {
+      "question": "¿Por qué se escuchan fragmentos en inglés en la película?",
+      "answers": [
+        "Es una película bilingüe",
+        "La familia de Tita vivía cerca de la frontera",
+        "Los actores no hablaban español",
+        "Es un error de doblaje"
+      ],
+      "correctAnswer": "La familia de Tita vivía cerca de la frontera"
+    },
+    {
+      "question": "¿Cómo termina la historia de Tita y Pedro?",
+      "answers": [
+        "Se casan y viven felices",
+        "Tita se casa con el doctor John",
+        "Mueren juntos en una escena mágica",
+        "Pedro se va con Rosaura"
+      ],
+      "correctAnswer": "Mueren juntos en una escena mágica"
+    },
+    {
+      "question": "¿En qué año se publicó originalmente el libro 'Como agua para chocolate'?",
+      "answers": ["1985", "1989", "1992", "1995"],
+      "correctAnswer": "1989"
+    },
+    {
+      "question": "¿Cuántos idiomas se mencionan a los que se tradujo el libro?",
+      "answers": ["Más de 10", "Más de 20", "Más de 30", "Más de 40"],
+      "correctAnswer": "Más de 30"
+    },
+    {
+      "question": "¿Qué otro género literario popular se menciona en relación con 'Como agua para chocolate'?",
+      "answers": [
+        "Novela histórica",
+        "Telenovela",
+        "Poesía",
+        "Ciencia ficción"
+      ],
+      "correctAnswer": "Telenovela"
+    },
+    {
+      "question": "¿Quién es Nacha en la historia?",
+      "answers": [
+        "La madre de Tita",
+        "La hermana de Tita",
+        "La cocinera de la familia",
+        "La vecina"
+      ],
+      "correctAnswer": "La cocinera de la familia"
+    },
+    {
+      "question": "¿Qué personaje histórico se menciona como dictador de México durante más de treinta años?",
+      "answers": [
+        "Benito Juárez",
+        "Emiliano Zapata",
+        "Porfirio Díaz",
+        "Francisco Madero"
+      ],
+      "correctAnswer": "Porfirio Díaz"
+    },
+    {
+      "question": "¿Qué relación tenían el director de la película y la autora del libro?",
+      "answers": [
+        "Eran hermanos",
+        "Eran primos",
+        "Estaban casados",
+        "Eran amigos de la infancia"
+      ],
+      "correctAnswer": "Estaban casados"
+    },
+    {
+      "question": "¿Cuál es el nombre del personaje que se casa con la hermana de Tita?",
+      "answers": ["Juan", "Pedro", "Pablo", "Miguel"],
+      "correctAnswer": "Pedro"
+    },
+    {
+      "question": "¿Qué ingredientes se mencionan como principales en la preparación del mole?",
+      "answers": [
+        "Chile, semillas y chocolate",
+        "Carne, arroz y frijoles",
+        "Tomate, cebolla y ajo",
+        "Maíz, calabaza y chiles"
+      ],
+      "correctAnswer": "Chile, semillas y chocolate"
+    },
+    {
+      "question": "¿Qué actor no hablaba español durante el rodaje de la película?",
+      "answers": [
+        "El que interpretó a Tita",
+        "El que interpretó a Pedro",
+        "El que interpretó a Mamá Elena",
+        "El que interpretó a Gertrudis"
+      ],
+      "correctAnswer": "El que interpretó a Pedro"
+    },
+    {
+      "question": "¿Qué alimentos se menciona que México ha dado al mundo?",
+      "answers": [
+        "Arroz y frijoles",
+        "Maíz y trigo",
+        "Tomate y chocolate",
+        "Papa y quinoa"
+      ],
+      "correctAnswer": "Tomate y chocolate"
+    },
+    {
+      "question": "¿Qué personaje de la historia es descrito como 'la cocinera maravillosa'?",
+      "answers": ["Mamá Elena", "Gertrudis", "Rosaura", "Tita"],
+      "correctAnswer": "Tita"
+    },
+    {
+      "question": "¿En qué década comenzó la Revolución Mexicana?",
+      "answers": ["1890", "1900", "1910", "1920"],
+      "correctAnswer": "1910"
+    },
+    {
+      "question": "¿Qué plato prepara Tita para el bautizo de su sobrino?",
+      "answers": [
+        "Pastel Chabela",
+        "Codornices en pétalos de rosa",
+        "Mole",
+        "Tortas de Navidad"
+      ],
+      "correctAnswer": "Mole"
+    },
+    {
+      "question": "Según el podcast, ¿cuántos ingredientes tenía la receta de mole que Martina recibió en Oaxaca?",
+      "answers": ["17", "27", "37", "47"],
+      "correctAnswer": "27"
+    },
+    {
+      "question": "¿Qué dice Tita que es el secreto para hacer un buen mole?",
+      "answers": [
+        "Muchos ingredientes",
+        "Cocinar a fuego lento",
+        "Hacerlo con mucho amor",
+        "Usar chiles picantes"
+      ],
+      "correctAnswer": "Hacerlo con mucho amor"
+    },
+    {
+      "question": "¿Cómo se estructura el libro 'Como agua para chocolate'?",
+      "answers": [
+        "Por estaciones del año",
+        "Por personajes",
+        "Por meses y recetas",
+        "Por eventos históricos"
+      ],
+      "correctAnswer": "Por meses y recetas"
+    },
+    {
+      "question": "¿Qué ocurre inmediatamente después del nacimiento de Tita en la película?",
+      "answers": [
+        "Una fiesta",
+        "Una inundación en la cocina",
+        "Un incendio",
+        "Una revolución"
+      ],
+      "correctAnswer": "Una inundación en la cocina"
+    },
+    {
+      "question": "¿Qué personaje dice 'Solo las ollas saben los hervores de su caldo'?",
+      "answers": ["Tita", "Mamá Elena", "Nacha", "Gertrudis"],
+      "correctAnswer": "Nacha"
+    },
+    {
+      "question": "¿Qué actor italiano tuvo una relación en la vida real con la actriz que interpretó a Tita?",
+      "answers": [
+        "Alfonso Arau",
+        "Marco Leonardi",
+        "Gabriel García Bernal",
+        "Antonio Banderas"
+      ],
+      "correctAnswer": "Marco Leonardi"
+    },
+    {
+      "question": "¿Qué diferencia importante se menciona entre 'Como agua para chocolate' y una telenovela típica?",
+      "answers": [
+        "No tiene personajes estereotípicos",
+        "No tiene escenas de cocina",
+        "No tiene un final feliz",
+        "No tiene una historia de amor"
+      ],
+      "correctAnswer": "No tiene un final feliz"
+    }
+  ]
+}
