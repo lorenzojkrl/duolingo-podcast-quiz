@@ -10,17 +10,13 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+
 import { Progress } from "@/components/ui/progress";
 import episode151 from "@/data/episode_151.json";
 import episode150 from "@/data/episode_150.json";
 import episode149 from "@/data/episode_149.json";
+import episode148 from "@/data/episode_148.json";
+import episode147 from "@/data/episode_147.json";
 import SelectEpisode from "@/components/SelectEpisode";
 import { episodes } from "@/data/episodesData";
 import QuizCompleted from "@/components/QuizCompleted";
@@ -40,6 +36,23 @@ export type EpisodeData = {
   quiz: QuizData[];
 };
 
+function getEpisodeData(selectedDataSet: string): EpisodeData | null {
+  switch (selectedDataSet) {
+    case "151":
+      return episode151;
+    case "150":
+      return episode150;
+    case "149":
+      return episode149;
+    case "148":
+      return episode148;
+    case "147":
+      return episode147;
+    default:
+      return null;
+  }
+}
+
 export default function Home() {
   const [currentQuestionIndex, setcurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
@@ -48,25 +61,20 @@ export default function Home() {
   const [randomQuestions, setRandomQuestions] = useState<QuizData[]>([]);
   const [question, setQuestion] = useState<QuizData | null>(null);
   const [selectedDataSet, setSelectedDataSet] = useState("151");
-  const [quizData, setQuizData] = useState<QuizData[]>(episode151.quiz);
   const [quizStarted, setQuizStarted] = useState(false);
 
-  const startQuiz = () => {
+  const initializeQuiz = () => {
     if (!selectedDataSet) return;
 
-    switch (selectedDataSet) {
-      case "151":
-        setQuizData(episode151.quiz);
-        break;
-      case "150":
-        setQuizData(episode150.quiz);
-        break;
-      case "149":
-        setQuizData(episode149.quiz);
-        break;
-    }
+    const selectedEpisodeData = getEpisodeData(selectedDataSet);
+    if (!selectedEpisodeData) return;
 
-    const shuffledQuestions = shuffleArray([...quizData]);
+    setcurrentQuestionIndex(0);
+    setSelectedAnswer(null);
+    setScore(0);
+    setQuizCompleted(false);
+
+    const shuffledQuestions = shuffleArray([...selectedEpisodeData.quiz]);
     setRandomQuestions(shuffledQuestions.slice(0, 10));
     setQuestion(shuffledQuestions[0]);
     setQuizStarted(true);
@@ -90,31 +98,7 @@ export default function Home() {
     }
   };
 
-  const resetQuiz = () => {
-    setcurrentQuestionIndex(0);
-    setSelectedAnswer(null);
-    setScore(0);
-    setQuizCompleted(false);
-    setQuizStarted(false);
-
-    switch (selectedDataSet) {
-      case "151":
-        setQuizData(episode151.quiz);
-        break;
-      case "150":
-        setQuizData(episode150.quiz);
-        break;
-      case "149":
-        setQuizData(episode149.quiz);
-        break;
-    }
-    const shuffledQuestions = shuffleArray([...quizData]);
-    setRandomQuestions(shuffledQuestions.slice(0, 10));
-    setQuestion(shuffledQuestions[0]);
-    setQuizStarted(true);
-  };
-
-  const shuffleArray = (array: typeof quizData) => {
+  const shuffleArray = (array: QuizData[]) => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
@@ -129,7 +113,7 @@ export default function Home() {
       <SelectEpisode
         selectedDataSet={selectedDataSet}
         setSelectedDataSet={setSelectedDataSet}
-        startQuiz={startQuiz}
+        startQuiz={initializeQuiz}
         episodes={episodes}
       />
     );
@@ -142,7 +126,7 @@ export default function Home() {
         totalQuestions={randomQuestions.length}
         selectedDataSet={selectedDataSet}
         setSelectedDataSet={setSelectedDataSet}
-        resetQuiz={resetQuiz}
+        resetQuiz={initializeQuiz}
         episodes={episodes}
       />
     );
