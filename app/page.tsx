@@ -20,6 +20,7 @@ import episode147 from "@/data/episode_147.json";
 import SelectEpisode from "@/components/SelectEpisode";
 import { episodes } from "@/data/episodesData";
 import QuizCompleted from "@/components/QuizCompleted";
+import Header from "@/components/Header";
 
 export type QuizData = {
   question: string;
@@ -110,80 +111,95 @@ export default function Home() {
 
   if (!quizStarted) {
     return (
-      <SelectEpisode
-        selectedDataSet={selectedDataSet}
-        setSelectedDataSet={setSelectedDataSet}
-        startQuiz={initializeQuiz}
-        episodes={episodes}
-      />
+      <div className="min-h-screen bg-background">
+        <Header />
+        <main className="py-6">
+          <SelectEpisode
+            selectedDataSet={selectedDataSet}
+            setSelectedDataSet={setSelectedDataSet}
+            startQuiz={initializeQuiz}
+            episodes={episodes}
+          />
+        </main>
+      </div>
     );
   }
 
   if (quizCompleted) {
     return (
-      <QuizCompleted
-        score={score}
-        totalQuestions={randomQuestions.length}
-        selectedDataSet={selectedDataSet}
-        setSelectedDataSet={setSelectedDataSet}
-        resetQuiz={initializeQuiz}
-        episodes={episodes}
-      />
+      <div className="min-h-screen bg-background">
+        <Header />
+        <main className="py-6">
+          <QuizCompleted
+            score={score}
+            totalQuestions={randomQuestions.length}
+            selectedDataSet={selectedDataSet}
+            setSelectedDataSet={setSelectedDataSet}
+            resetQuiz={initializeQuiz}
+            episodes={episodes}
+          />
+        </main>
+      </div>
     );
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-background p-4">
-      <Card className="w-full max-w-md">
-        <CardHeader>
-          <CardDescription className="text-center">
-            {selectedEpisode?.title}
-          </CardDescription>
-          <CardTitle className="text-2xl font-bold text-center">
-            {question?.question}
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="grid grid-cols-1 gap-4">
-            {question?.answers.map((answer, index) => (
-              <Button
-                key={index}
-                onClick={() => handleAnswerClick(answer)}
-                className={`w-full text-left justify-start ${
-                  selectedAnswer
-                    ? answer === question.correctAnswer
-                      ? "border-green-500 border-2"
-                      : selectedAnswer === answer
-                      ? "border-red-500 border-2"
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main className=" flex items-center justify-center py-6">
+        <Card className="w-full max-w-md">
+          <CardHeader>
+            <CardDescription className="text-center">
+              {selectedEpisode?.title}
+            </CardDescription>
+            <CardTitle className="text-2xl font-bold text-center">
+              {question?.question}
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-1 gap-4">
+              {question?.answers.map((answer, index) => (
+                <Button
+                  key={index}
+                  onClick={() => handleAnswerClick(answer)}
+                  className={`w-full text-left justify-start ${
+                    selectedAnswer
+                      ? answer === question.correctAnswer
+                        ? "border-green-500 border-2"
+                        : selectedAnswer === answer
+                        ? "border-red-500 border-2"
+                        : ""
                       : ""
-                    : ""
-                }`}
-                variant={selectedAnswer ? "outline" : "default"}
-              >
-                {answer}
-              </Button>
-            ))}
-          </div>
-        </CardContent>
-        <CardFooter className="flex flex-col items-center">
-          <p className="mb-2">
-            Question {currentQuestionIndex + 1} of {randomQuestions.length}
-          </p>
-          <Progress
-            value={((currentQuestionIndex + 1) / randomQuestions.length) * 100}
-            className="w-full mb-4"
-          />
-          <Button
-            onClick={handleNextQuestion}
-            disabled={!selectedAnswer}
-            className="w-full"
-          >
-            {currentQuestionIndex === randomQuestions.length - 1
-              ? "Finish"
-              : "Next"}
-          </Button>
-        </CardFooter>
-      </Card>
+                  }`}
+                  variant={selectedAnswer ? "outline" : "default"}
+                >
+                  {answer}
+                </Button>
+              ))}
+            </div>
+          </CardContent>
+          <CardFooter className="flex flex-col items-center">
+            <p className="mb-2">
+              Question {currentQuestionIndex + 1} of {randomQuestions.length}
+            </p>
+            <Progress
+              value={
+                ((currentQuestionIndex + 1) / randomQuestions.length) * 100
+              }
+              className="w-full mb-4"
+            />
+            <Button
+              onClick={handleNextQuestion}
+              disabled={!selectedAnswer}
+              className="w-full"
+            >
+              {currentQuestionIndex === randomQuestions.length - 1
+                ? "Finish"
+                : "Next"}
+            </Button>
+          </CardFooter>
+        </Card>
+      </main>
     </div>
   );
 }
